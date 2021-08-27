@@ -1,0 +1,18 @@
+.sidebarRow{
+    color: rgba(1, 1, 146, 0.685);
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.sidebarRow-icon{
+    margin-right: 3px;
+}
+.sidebarRow.selected{
+    border-left: 5px solid rgba(0, 0, 255, 0.678);
+    background-color: rgba(173, 216, 230, 0.678);
+    margin-left: 0px;
+}

@@ -1,0 +1,62 @@
+.main {
+  padding-left: 20%;
+}
+.main-top {
+  margin-top: 10px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.main-search {
+  margin-right: 10px;
+}
+.main-top > .MuiSvgIcon-root {
+  margin-top: 10px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+div > .main-search {
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: flex;
+}
+input {
+  border: 0px;
+  outline-width: 0;
+}
+img {
+  width: 250px;
+}
+.main-bottom {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid rgba(128, 128, 128, 0.712);
+  background-color: rgba(128, 128, 128, 0.288);
+  padding: 15px;
+  margin: 5px;
+}
+.card-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.card-icons > .MuiSvgIcon-root {
+  width: 15px;
+}
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100px;
+    }
+   .main{
+       margin-left: -20px;
+   }
+   .main-top{
+       margin-left: -5px;
+   }
+}
